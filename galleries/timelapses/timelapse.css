@@ -23,7 +23,7 @@
 
 #gallerytitle {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgba(255, 255, 255, 0.781);
   font-size: 25px;
   font-weight: 100;
   letter-spacing: 12px;
@@ -47,12 +47,13 @@
 
 #gobackbutt {
   font-family: "Nunito Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.877);
   position: absolute;
-  right: 30px;
+  right: 40px;
   height: 35px;
-  width: 120px;
+  width: 100px;
   background-color: rgba(128, 128, 128, 0.109);
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.685);
   padding-top: auto;
   padding-bottom: auto;
   line-height: 3px;
@@ -60,39 +61,105 @@
 
 .navbar-brand {
   height: 60px;
-  color: white;
+  color: rgba(255, 255, 255, 0.719);
   font-family: "Syncopate", sans-serif;
   font-weight: bolder;
   font-size: 50px;
   letter-spacing: 8px;
 }
 
-.row {
-  border: 1px solid white;
-}
-.col-4 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  border: 1px solid white;
-  height: 250px;
-}
-
-#vidgalwrapper {
+#vidwrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 1000px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-#gallthumbs {
-  height: 200px;
-  width: 200px;
-  align-self: center;
+#vidrow {
+  height: auto;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow1 {
+  height: auto;
+  width: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow2 {
+  height: 600px;
+  width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow3 {
+  height: 600px;
+  width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow4 {
+  height: auto;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow5 {
+  height: auto;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow6 {
+  height: auto;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#vidrow7 {
+  height: auto;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 40px;
+  border: 1px solid white;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 100px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  /* height: 40px; */
+  width: 120px;
+  border: 1px solid white; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(75, 74, 74, 0.637); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  letter-spacing: 6px;
 }
 
-#row1 {
-  height: 250px;
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
