@@ -255,71 +255,71 @@
         <div class='col-2'> 
           <div class="bar-1">
           <div class="title" style="color: white;">HTML5</div>
-          <div class="bar" data-width="65%">
+          <div class="bar" data-width="90%">
             <div class="bar-inner" style="background: #30C3CA;">
               <!-- html -->
             </div>
-            <div class="bar-percent">65%</div>
+            <div class="bar-percent">90%</div>
           </div>
           </div>
           <!-- css -->
           <div class="bar-1">
             <div class="title" style="color: white;">CSS</div>
-            <div class="bar" data-width="65%">
+            <div class="bar" data-width="80%">
               <div class="bar-inner" style="background: #CF4250;">
               </div>
-              <div class="bar-percent">65%</div>
+              <div class="bar-percent">80%</div>
             </div>
             </div>
                       <!-- javascript -->
           <div class="bar-1">
           <div class="title" style="color: white;">JAVASCRIPT</div>
-          <div class="bar" data-width="85%">
+          <div class="bar" data-width="70%">
             <div class="bar-inner" style="background: #97DEE0;">
               
             </div>
-            <div class="bar-percent">85%</div>
+            <div class="bar-percent">70%</div>
           </div>
           
           </div>
           <!-- jquery -->
           <div class="bar-1">
           <div class="title" style="color: white;">JQUERY</div>
-          <div class="bar" data-width="95%">
+          <div class="bar" data-width="70%">
             <div class="bar-inner" style="background: #EAD8D4;">
               
             </div>
-            <div class="bar-percent">95%</div>
+            <div class="bar-percent">70%</div>
           </div>
           </div>
           <!-- NODE JS -->
           <div class="bar-1">
           <div class="title" style="color: white;">NODE.JS</div>
-          <div class="bar" data-width="75%">
+          <div class="bar" data-width="70%">
             <div class="bar-inner" style="background: #DB7D77;">
               
             </div>
-            <div class="bar-percent">75%</div>
+            <div class="bar-percent">70%</div>
           </div>
           </div>
             <!-- jquery -->
             <div class="bar-1">
               <div class="title" style="color: white;">MYSQL</div>
-              <div class="bar" data-width="95%">
+              <div class="bar" data-width="65%">
                 <div class="bar-inner" style="background: #525252;">
                   
                 </div>
-                <div class="bar-percent">95%</div>
+                <div class="bar-percent">65%</div>
               </div>
               </div>
               
               <!-- NODE JS -->
               <div class="bar-1">
               <div class="title" style="color: white">MONGO DB</div>
-              <div class="bar" data-width="75%">
+              <div class="bar" data-width="65%">
                 <div class="bar-inner" style="background: #30C3CA;">
                 </div>
-                <div class="bar-percent">75%</div>
+                <div class="bar-percent">65%</div>
               </div>
               </div></div>
                <!-- ******************************************************************************************************************************    COLUMN 2 -->
@@ -327,43 +327,43 @@
           <!-- javascript -->
 <div class="bar-1">
 <div class="title" style="color: white;">FIREBASE</div>
-<div class="bar" data-width="85%">
+<div class="bar" data-width="60%">
 <div class="bar-inner" style="background: #084c61;">
   
 </div>
-<div class="bar-percent">85%</div>
+<div class="bar-percent">60%</div>
 </div>
 
 </div>
  <!-- jquery -->
  <div class="bar-1">
   <div class="title" style="color: white;">REACT.JS</div>
-  <div class="bar" data-width="95%">
+  <div class="bar" data-width="75%">
     <div class="bar-inner" style="background: #30C3CA
     ;">
       
     </div>
-    <div class="bar-percent">95%</div>
+    <div class="bar-percent">75%</div>
   </div>
   </div>
    <!-- jquery -->
    <div class="bar-1">
     <div class="title" style="color: white;">EXPRESS</div>
-    <div class="bar" data-width="95%">
+    <div class="bar" data-width="80%">
       <div class="bar-inner" style="background: #CF4250;">
         
       </div>
-      <div class="bar-percent">95%</div>
+      <div class="bar-percent">80%</div>
     </div>
     </div>
 <!-- jquery -->
 <div class="bar-1">
 <div class="title" style="color: white;">MAPBOX-GL</div>
-<div class="bar" data-width="95%">
+<div class="bar" data-width="85%">
 <div class="bar-inner" style="background: #97DEE0;">
   
 </div>
-<div class="bar-percent">95%</div>
+<div class="bar-percent">85%</div>
 </div>
 </div>
 <!-- NODE JS -->
@@ -709,7 +709,7 @@
         </div>
       </div>
      </div>
-           <!-- *************************************************************************************************************************** Contact forms grid  **************************************--> 
+           <!-- *************************************************************************************************************************** Contact forms grid  **********************--> 
 
      <div class='container'>
        <!-- <header id='contacthead'>Please reach out!</header> -->
@@ -749,21 +749,33 @@
 
         </div>
       </div>
+                 <!-- ****************************************************************************************************************** FLOATING TOP BUTTON **********************--> 
 
-   
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- --------------------FLOATING TOP BUTTON  JAVASCRIPT---------->
+<script>
+//Get the button:
+  mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  </script>
 
-
-
-
-
-
-   
-      <!-- Bootstrap js links -->
-      <!-- <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script> -->
+   <!-- BOOTSTRAP JS LINKS      -->
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
       </script>

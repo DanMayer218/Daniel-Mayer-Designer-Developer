@@ -24,6 +24,29 @@
 /* Header and Nav css
 *******************************************************
 ******************************************************* */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 100px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  /* height: 40px; */
+  width: 120px;
+  border: 1px solid white; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(75, 74, 74, 0.637); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  letter-spacing: 6px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 .navbar {
   background-image: linear-gradient(
     to right,
