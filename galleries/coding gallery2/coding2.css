@@ -66,11 +66,12 @@
 .fade-carousel .slides .slide-4a,
 .fade-carousel .slides .slide-5a,
 .fade-carousel .slides .slide-6a,
-.fade-carousel .slides .slide-7a,
-.fade-carousel .slides .slide-8a,
+.fade-carousel .slides .slide-7a
+/* .fade-carousel .slides .slide-8a,
 .fade-carousel .slides .slide-9a,
 .fade-carousel .slides .slide-10a,
-.fade-carousel .slides .slide-11a {
+.fade-carousel .slides .slide-11a */
+ {
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -96,14 +97,14 @@
   background-size: contain;
 }
 .fade-carousel .slides .slide-6a {
-  background-image: url(./coding_gallery_images/NLMLogo.afphoto);
+  background-image: url(./coding_gallery_images/Sum1.png);
   background-size: contain;
 }
 .fade-carousel .slides .slide-7a {
-  background-image: url(./coding_gallery_images/NLMLogo.png);
+  background-image: url(./coding_gallery_images/danazonscreenshot.png);
   background-size: contain;
 }
-.fade-carousel .slides .slide-8a {
+/* .fade-carousel .slides .slide-8a {
   background-image: url(./coding_gallery_images/NLMLogo.png);
   background-size: contain;
 }
@@ -118,7 +119,7 @@
 .fade-carousel .slides .slide-11a {
   background-image: url(./coding_gallery_images/NLMLogo.png);
   background-size: contain;
-}
+} */
 
 /********************************/
 /*          Media Queries       */

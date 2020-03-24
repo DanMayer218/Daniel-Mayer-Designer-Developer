@@ -403,12 +403,13 @@ h1 {
 .card-body {
   font-family: "Nunito Sans", sans-serif;
 
-  background-color: rgba(148, 148, 148, 0.849);
+  background-color: rgba(47, 47, 47, 0.849);
   color: white;
   border-top: 1px solid white;
 }
 .card-title {
   font-family: "Nunito Sans", sans-serif;
+  color: white;
   font-size: 30px;
   text-align: center;
   font-size: 30px;
